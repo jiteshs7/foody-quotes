@@ -1,0 +1,78 @@
+.checkout {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1rem 0;
+    padding: 0 0.2rem;
+    overflow: scroll;
+}
+
+.inputError input {
+  border-color: #aa0b20;
+  background-color: #ffeff1;
+}
+.inputError label {
+  color: #ca3e51;
+}
+
+.checkout label {
+    font-size: large;
+    font-weight: 600;
+    margin: 0.2rem 0;
+}
+
+.checkout input {
+    font: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-width: 100%;
+    width: 20rem;
+    padding: 0.5rem;
+}
+
+.btnContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btnContainer button {
+    font: inherit;
+    color: #5a1a01;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-radius: 25px;
+    padding: 0.5rem 2rem; 
+}
+
+.btnContainer button:hover,
+.btnContainer button:active {
+  background-color: #ffe6dc;
+}
+
+.btnContainer .btnCancel {
+    color: #8a2b06;
+}
+
+.btnContainer .btnConfirm {
+    border: 1px solid #5a1a01;
+    background-color: #5a1a01;
+    color: white;
+}
+
+.btnContainer .btnConfirm:hover,
+.btnContainer .btnConfirm:active {
+  background-color: #7a2706;
+}
+
+.invalid label {
+  color: #ca3e51;
+}
+
+.invalid input {
+  border-color: #aa0b20;
+  background-color: #ffeff1;
+}
+

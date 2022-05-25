@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container button {
+    background-color: white;
+    border: 0.5px solid #8a2b06;
+    border-radius: 5px;
+    color: #8a2b06;
+    cursor: pointer;
+    font-size: medium;
+    padding: 0.1rem 0.3rem;
+}
+
+.container button:hover,.container button:active {
+    background-color: #8a2b06;
+    color: white;
+}
+
+.container .quantity {
+    margin: 0 0.5rem;
+}

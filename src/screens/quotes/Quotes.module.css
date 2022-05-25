@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.container button {
+    margin-right: 2rem;
+}
+
+.listContainer {
+    padding: 0;
+    margin: 0;
+    width: 45%;
+}

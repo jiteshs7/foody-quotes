@@ -1,0 +1,19 @@
+.title {
+    color: black;
+    font-size: large;
+    font-weight: 600;
+    margin-right: 0.5rem;
+}
+
+.input {
+    border-radius: 5px;
+    font-size: medium;
+    padding: 1px 3px;
+    width: 2rem;
+}
+
+.error {
+    font-size: medium;
+    color: red;
+    margin: 0.1rem 0;
+}

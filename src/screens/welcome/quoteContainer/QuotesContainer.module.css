@@ -1,0 +1,39 @@
+.container {
+    align-items: center;
+    background-color: #008080;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+}
+
+.container div {
+    color: #fff;
+    font-size: x-large;
+    font-weight: 800;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    margin-left: 1.5rem;
+    font-size: 1.25rem;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #88dfdf;
+  }
+  
+  .nav a:hover,
+  .nav a:active,
+  .nav a.active, .nav .activeLink {
+    color: #e6fcfc;
+  }
+  
